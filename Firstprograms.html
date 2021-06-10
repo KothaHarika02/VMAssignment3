@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>First Program</title>
+        <script src='../JS/practice.js'></script>
+        <style>
+            table{
+background: lightblue;
+            width:700px;
+            border-left:35px solid lightgreen;
+            border-right:35px solid lightpink;
+            border-top:35px solid lightskyblue;
+            border-bottom:35px solid lightcyan;
+            padding:20px;
+            margin:30px;
+}
+        </style>
+    </head>
+    <body>
+        <!-- <h1>Basic Calculator</h1> -->
+        <fieldset>
+            <legend align='left' style='font-size: 30'>Basic Calculator</legend>
+            <table>
+           <tr>
+               <td style='color:red'>First Number</td><td>:</td><td><input type='text' id='first' style='background-color:antiquewhite'> </td>
+           </tr>
+           <tr>
+            <td style='color:green'>Second Number</td><td>:</td><td><input type='text' id='second' style='background-color:bisque'> </td>
+           </tr>
+           <tr>
+            <td style='color:blue'>Result</td><td>:</td><td><input type='text' value='' id='Res' style='background-color:azure'></td>
+            <!-- <div id='result'></div></td> -->
+            </tr>
+           <tr>
+           <td><button onclick="addData()" style='background-color:burlywood'>ADD</button></td>
+           <td><button onclick="subData()" style='background-color:darkgray'>SUB</button></td>
+           <td><button onclick="mulData()" style='background-color:mediumpurple'>MUL</button></td>
+           <td><button onclick="divData()" style='background-color:honeydew'>DIV</button></td> 
+        </tr>
+       </table>
+    </fieldset>
+    </body>
+</html>
