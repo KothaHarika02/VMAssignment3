@@ -1,0 +1,31 @@
+
+    <!-- FirstNumber:<input type='text' #x>
+    SecondNumber:<input type='text' #y>
+    Result:{{this.result}}
+    <button (click)='add(x:value,y:value)'>Add</button> -->
+    <!-- <button (click)='sub(uname.firstnbr,uname.secondnbr)'>Sub</button>
+    <button (click)='mul(uname.firstnbr,uname.secondnbr)'>Mul</button>
+    <button (click)='div(uname.firstnbr,uname.secondnbr)'>Div</button> -->
+    <h1>Property Binding Example:</h1>
+    <img width=200px height=150px [src] ='myImage'><br>
+    <h1>Two-way Binding Example:</h1>
+    Heading:<input type='text' [(ngModel)]='heading'><br>
+    <h1>Class ans Style Binding Example:</h1>
+    <div [class.myClass]="applyClass">Class Binding Example</div>
+    <div [style.color]="applyStyle?'darkgreen':'yellow'">Style Binding Example</div>
+    <h1>Event Binding Example:</h1>
+    <pre>
+        <h2>Calculator</h2><hr>
+    <p>FirstNumber:<input type='text' #uname1><br></p>
+    <p>SecondNumber:<input type='text' #uname2><br></p>
+    <p>Result:{{this.res}}</p>
+<button (click)='add(uname1.value, uname2.value)'>Add</button>
+<button (click)='sub(uname1.value, uname2.value)'>Sub</button>
+
+<button (click)='mul(uname1.value, uname2.value)'>Mul</button>
+
+<button (click)='div(uname1.value, uname2.value)'>Div</button>
+
+
+</pre>
+
