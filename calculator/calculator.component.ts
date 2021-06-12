@@ -17,15 +17,15 @@ export class CalculatorComponent  {
     console.log(this.res)
 }
 sub(num1x:any,num2y:any){
-  this.res=Number(num1x)+Number(num2y);
+  this.res=Number(num1x)-Number(num2y);
    console.log(this.res)
 }
 mul(num1x:any,num2y:any){
-  this.res=Number(num1x)+Number(num2y);
+  this.res=Number(num1x)*Number(num2y);
    console.log(this.res)
 }
 div(num1x:any,num2y:any){
-  this.res=Number(num1x)+Number(num2y);
+  this.res=Number(num1x)/Number(num2y);
    console.log(this.res)
 }
 }
